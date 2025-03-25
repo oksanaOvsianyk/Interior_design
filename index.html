@@ -1,13 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Головна сторінка</title>
+    <title>Головна - Дизайн Інтер'єру</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Стиль для навігаційного меню */
+        nav {
+            background-color: #333333;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 20px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #555555;
+        }
+
+        /* Стиль для основного контенту */
+        .content {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .content h1 {
+            color: darkred;
+            font-size: 36px;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: black;
+            font-style: italic;
+        }
+
+        /* Стиль для картинок */
+        .content img {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        /* Стиль для списків */
+        .advantages {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .advantages h2 {
+            color: #000000;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* Стиль для нумерованого списку */
+        ol {
+            list-style-type: decimal;
+            font-size: 18px;
+            color: #555555;
+            padding-left: 0;
+            text-align: left;
+            display: inline-block;
+
+            margin: 40px;
+            /* Додаємо відступ між списками */
+        }
+
+        ol li {
+            margin-bottom: 15px;
+        }
+
+        /* Стиль для маркованого списку */
+        ul {
+            font-size: 18px;
+            color: #555555;
+            padding-left: 0;
+            text-align: left;
+            display: inline-block;
+            margin: 30px;
+            /* Додаємо відступ між списками */
+        }
+
+        ul li {
+            margin-bottom: 15px;
+        }
+
+        .circle-list {
+            list-style-type: circle;
+        }
+
+        .square-list {
+            list-style-type: square;
+        }
+
+        .disc-list {
+            list-style-type: disc;
+        }
+
+        /* Стиль для списку із зображеннями */
+        .icon-list li {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .icon-list li img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        /* Відступи для списків з визначеннями */
+        dl {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            /* Додаємо відступ між списками */
+        }
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        dd {
+            margin-bottom: 15px;
+        }
+
+        .about-us {
+            text-align: center;
+        }
+
+        a {
+            color: #000000;
+
+        }
+
+
+        a:hover {
+            color: #ff5733;
+
+        }
+    </style>
 </head>
 
-<body>
+<body bgcolor="#5db0e9" text="#000000">
+    <nav align="center">
+        <a href="index.html">Головна</a>
+        <a href="services.html">Послуги</a>
+        <a href="projects.html">Проєкти</a>
+        <a href="contacts.html">Контакти</a>
+    </nav>
+
+    <div class="content">
+        <h1><b>Дизайни інтер'єру</b> від ідеї до реалізації</h1>
+        <p><i>Ми створюємо стильні та функціональні інтер'єри для будь-якого приміщення.</i></p>
+
+        <a href="main_img.jpg" target="_blank">
+            <img src="main_img.jpg" alt="Головне зображення" width="400" height="200">
+        </a>
+    </div>
+    <div class="about-us">
+        <h2>Про нас</h2>
+        <p>Наша компанія спеціалізується на створенні інтер'єрів, що поєднують естетику та функціональність. Ми працюємо
+            над
+            кожним проектом із максимальною увагою до деталей та індивідуальними потребами наших клієнтів. Завдяки
+            досвіду
+            та креативному підходу, ми створюємо простір, в якому ви будете відчувати себе комфортно. Дізнайтесь більше
+            про
+            нас на <a href="https://www.example.com" target="_blank">нашому партнерському сайті</a>.</p>
+    </div>
+
+    <div class="advantages">
+        <h2>Наші переваги</h2>
+
+
+        <ol>
+            <li>Якісне виконання кожного проєкту.</li>
+            <li>Використання сучасних технологій.</li>
+            <li>Індивідуальний підхід до кожного клієнта.</li>
+            <li>Підтримка клієнта на всіх етапах </li>
+        </ol>
+
+
+        <ul class="circle-list">
+            <li>Швидкість виконання робіт.</li>
+            <li>Розумні ціни на всі послуги.</li>
+            <li>Робота з перевіреними постачальниками </li>
+            <li>Гарантія на виконані роботи.</li>
+        </ul>
+
+        <ul class="square-list">
+            <li>Підбір найкращих рішень для кожного проєкту.</li>
+            <li>Ретельний контроль якості.</li>
+            <li>Гнучкість у роботі з клієнтами.</li>
+        </ul>
+
+        <ul class="disc-list">
+            <li>Прозорі умови співпраці.</li>
+            <li>Чітке виконання всіх вимог і стандартів.</li>
+            <li>Підтримка після завершення проєкту.</li>
+        </ul>
+
+
+
+    </div>
 
 </body>
 

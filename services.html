@@ -1,13 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Послуги</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 90%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: center;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        td {
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        td img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        td a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        td a:hover {
+            color: #2980b9;
+        }
+
+        td p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Стиль для таблиці на мобільних пристроях */
+        @media screen and (max-width: 768px) {
+            table {
+                width: 100%;
+                margin: 20px 0;
+            }
+
+            th,
+            td {
+                padding: 12px;
+                font-size: 14px;
+            }
+
+            td img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    </style>
+
 </head>
 
-<body>
+<body bgcolor="#5db0e9">
+    <nav align="center">
+        <a href="index.html" style="color: white; text-decoration: none;">Головна</a> |
+        <a href="services.html" style="color: white; text-decoration: none;">Послуги</a> |
+        <a href="projects.html" style="color: white; text-decoration: none;">Проєкти</a> |
+        <a href="contacts.html" style="color: white; text-decoration: none;">Контакти</a>
+    </nav>
+
+
+
+    <table>
+        <caption>Наші Послуги</caption>
+        <thead>
+            <tr>
+                <th>Послуга 1</th>
+                <th>Послуга 2</th>
+                <th>Послуга 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="./2-64.jpg" alt="Послуга 1"></td>
+                <td><img src="./3d.jpg" alt="Послуга 2"></td>
+                <td><img src="./con.jpg" alt="Послуга 3"></td>
+            </tr>
+            <tr>
+                <td><a href="https://example.com">Перейти до послуги 1</a></td>
+                <td><a href="https://example.com">Перейти до послуги 2</a></td>
+                <td><a href="https://example.com">Перейти до послуги 3</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Дизайн інтер'єрів для будь-якого приміщення, від сучасних до класичних стилів.</p>
+                </td>
+                <td>
+                    <p>Створення 3D моделей для наочності та точного розуміння результату.</p>
+                </td>
+                <td>
+                    <p>Професійні консультації щодо вибору матеріалів та технологій ремонту.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 

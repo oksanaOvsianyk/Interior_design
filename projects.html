@@ -1,13 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проєкти</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-spacing: 10px;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        colgroup {
+            background-color: #ecf0f1;
+        }
+
+        col {
+            background-color: #ecf0f1;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #024c95;
+            color: white;
+            border: 1px solid black;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        td.highlight {
+            background-color: #f39c12;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
-<body>
+<body bgcolor="#5db0e9" text="#000000">
+    <nav align="center">
+        <a href="index.html" style="color: white ; text-decoration: none;">Головна</a> |
+        <a href="services.html" style="color: white; text-decoration: none;">Послуги</a> |
+        <a href="projects.html" style="color: white; text-decoration: none;">Проєкти</a> |
+        <a href="contacts.html" style="color: white; text-decoration: none;">Контакти</a>
+    </nav>
+
+
+
+
+
+    <table>
+        <caption>Наші Проєкти</caption>
+        <colgroup>
+            <col span="1">
+            <col span="1">
+            <col span="1">
+            <col span="1">
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2">Назва проєкту</th>
+                <th colspan="2">Особливості</th>
+                <th rowspan="2">Статус</th>
+            </tr>
+            <tr>
+                <th>Тип</th>
+                <th>Місце розташування</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Квартира в стилі лофт</td>
+                <td>Житловий</td>
+                <td>Київ, Центр</td>
+                <td>Завершено</td>
+            </tr>
+            <tr>
+                <td>Офіс у стилі мінімалізм</td>
+                <td>Комерційний</td>
+                <td>Київ, Оболонь</td>
+                <td class="highlight">В процесі</td>
+            </tr>
+            <tr>
+                <td>Ресторан в стилі модерн</td>
+                <td>Комерційний</td>
+                <td>Одеса, Пляжна зона</td>
+                <td>Завершено</td>
+            </tr>
+            <tr>
+                <td>Готель в стилі арт-деко</td>
+                <td>Комерційний</td>
+                <td>Львів, Центр</td>
+                <td class="highlight">В процесі</td>
+            </tr>
+            <tr>
+                <td>Будинок в стилі класика</td>
+                <td>Житловий</td>
+                <td>Чернівці, Приміська зона</td>
+                <td>Завершено</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
 
 </body>
 
