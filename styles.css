@@ -1,0 +1,203 @@
+/* Загальний стиль для тіла сторінки */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5db0e9; /* Фон сторінки */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Стиль для заголовків H1, H2, H3 */
+h1,
+h2,
+h3 {
+  font-family: 'Arial', sans-serif;
+  color: darkred;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff5733;
+}
+
+nav {
+  background-color: #333333;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555555;
+}
+
+/* Стиль для списків */
+ul,
+ol,
+dl {
+  font-size: 18px;
+  color: #555555;
+  padding-left: 0;
+  text-align: left;
+  display: inline-block;
+  margin: 30px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 15px;
+}
+
+.circle-list {
+  list-style-type: circle;
+}
+
+.square-list {
+  list-style-type: square;
+}
+
+.disc-list {
+  list-style-type: disc;
+}
+
+.icon-list li {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.icon-list li img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* Стиль для таблиць */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: #fafafa;
+  color: #333;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+td a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+
+td a:hover {
+  color: #2980b9;
+}
+
+td p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Для конкретних внутрішніх елементів */
+#about-us {
+  text-align: center;
+}
+
+table.custom-table {
+  background-color: #f5f5f5;
+  border: 2px solid #ccc;
+}
+
+table.custom-table caption {
+  font-size: 22px;
+  color: #2c3e50;
+}
+
+table.custom-table th {
+  background-color: #2980b9;
+  color: white;
+}
+
+table.custom-table td {
+  background-color: #ecf0f1;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
